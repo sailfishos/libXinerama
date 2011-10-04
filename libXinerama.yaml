@@ -1,0 +1,26 @@
+Name: libXinerama
+Summary: X.Org X11 libXinerama runtime library
+Description: API for Xinerama extension to X11 Protocol 
+Version: 1.1.1
+Release: 1
+Group: System/Libraries
+License: MIT/X11
+URL: http://www.x.org
+Sources:
+    - http://xorg.freedesktop.org/archive/individual/lib/%{name}-%{version}.tar.bz2
+
+PkgBR:
+    - pkgconfig
+PkgConfigBR:
+    - xproto
+    - xextproto
+    - x11
+    - xext
+    - xineramaproto
+Configure: configure
+SubPackages:
+    - Name: devel
+      Summary: X.Org X11 libXinerama development package
+      Group: Development/Libraries
+      Description: X.Org X11 Xinerama extension development package
+

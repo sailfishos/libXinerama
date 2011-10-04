@@ -1,0 +1,12 @@
+* Mon Jun 13 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.1.1
+- Updated to 1.1.1
+
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.3
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Thu Dec 18 2008 Arjan van de Ven <arjan@linux.intel.com> 1.0.3
+- Fix buildrequires
+
+* Wed Dec 03 2008 Anas Nashif <anas.nashif@intel.com> 1.0.3
+- Spec file cleanup
