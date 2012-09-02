@@ -1,7 +1,7 @@
 Name: libXinerama
 Summary: X.Org X11 libXinerama runtime library
 Description: API for Xinerama extension to X11 Protocol 
-Version: 1.1.1
+Version: 1.1.2
 Release: 1
 Group: System/Libraries
 License: MIT/X11
